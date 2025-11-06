@@ -8,6 +8,8 @@ import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.ArrayList;
 
+import static src.DAO.Database.connect;
+
 public class EleveDAO {
 
     public boolean create(Eleve obj) {
