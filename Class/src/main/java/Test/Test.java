@@ -12,7 +12,7 @@ public class Test {
        TestConnexion test = new TestConnexion();
        test.testCon();
 
-
+/*
 
         Eleve eleve = new Eleve("Hassani","Ayad",20);
         Eleve eleve2 = new Eleve("Geek","Leo",20);
@@ -22,5 +22,7 @@ public class Test {
         eleves.add(eleve2);
         Classe classe = new Classe("3eme",prof,eleves);
         System.out.println(classe.toString());
+*/
+
     }
 }

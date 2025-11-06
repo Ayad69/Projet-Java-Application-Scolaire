@@ -6,7 +6,8 @@ public class Eleve {
     private String prenomEleve;
     private int ageEleve;
 
-    public Eleve(String nomEleve, String prenomEleve, int ageEleve) {
+    public Eleve(int idEleve, String nomEleve, String prenomEleve, int ageEleve) {
+        this.idEleve = idEleve;
         this.nomEleve = nomEleve;
         this.prenomEleve = prenomEleve;
         this.ageEleve = ageEleve;
