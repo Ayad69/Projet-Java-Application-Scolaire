@@ -15,12 +15,15 @@ public class Prof {
     public int getIdProf() {
         return idProf;
     }
+
     public void setIdProf(int idProf) {
-       this.idProf = idProf;
+        this.idProf = idProf;
     }
+
     public String getNomProf() {
         return nomProf;
     }
+
     public void setNomProf(String nomProf) {
         this.nomProf = nomProf;
     }
@@ -28,12 +31,15 @@ public class Prof {
     public String getPrenomProf() {
         return prenomProf;
     }
+
     public void setPrenomProf(String prenomProf) {
         this.prenomProf = prenomProf;
     }
+
     public int getAgeProf() {
         return ageProf;
     }
+
     public void setAgeProf(int ageProf) {
         this.ageProf = ageProf;
     }
